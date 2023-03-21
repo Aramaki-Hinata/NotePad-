@@ -1,75 +1,82 @@
-<!-- <!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        div, p{
-            color:rgba(92, 187, 61, 0.829);
-            font-size:20px;
-            /* セレクター/宣言/宣言ぶろっく/プロパティ/規則セット/内部スタイルシート/
-            外部スタイルシート/インラインスタイルシート/ command+/でコメントアウトができる*/
-        }
-    </style>
-</head>
-<body>
-    <nav>
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-        
-            ul>li*5 
-                    
-    </nav>
-    <div style="color:red; font-size:25px;">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-         Corrupti ullam sunt consectetur ipsa veniam veritatis velit fugiat 
-         hic possimus, 
-         debitis dolore aliquid minus esse quos laborum vel deleniti 
-         at maiores.
-    </div>
-        
-</body>
-</html>  -->
 <!DOCTYPE html>
 <html lang="ja">
-<head>
+  <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Query Corp</title>
     <link rel="stylesheet" href="style.css">
-</head>
-<body>
+  </head>
+
+
+  <body>
+
+
     <header>
-        <h1 id="title">IT大学</h1>
-        <h2>プログラミング講座 CSS編</h2>   
-        <nav>
-            <ul>
-                <li><a href="https://www.yahoo.com">ヤフー</a></li>
-                <li><a href="#"> Yahoo! JAPAN</a></li>   
-                <li><a href="#">Google</a></li>
-                <li><a href="#">Google Japan</a></li>
-                <li><a href="#">Apple Computer</a></li>
-            </ul>
-
-        </nav>
-        <main>
-            <h1>記事一覧</h1>
-            <article>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique quas natus corrupti quo saepe necessitatibus nostrum repellendus laudantium rerum expedita consequatur deleniti, earum accusamus. Praesentium nesciunt sapiente officia ut commodi.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum quo rem illum, facere quis, sit, aut repellat atque nam maiores ratione aperiam incidunt ut voluptatum similique dicta. Explicabo, veritatis illum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et nobis autem maxime quos nesciunt sit voluptatibus facere dolore dignissimos ex debitis temporibus ullam corporis, laboriosam, asperiores voluptatum obcaecati cupiditate quibusdam!</p>
-            </article>
-        </main>
-
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="hero">
+        <h1>もう忘れない MateNoteで</h1>
+        <p>ハイブリットで効率的なタスク管理ができます。</p>
+        <a href="#" class="btn">新規登録</a>
+        <a href="#" class="btn">ログインする</a>
+      </div>
     </header>
-</body>
+
+
+    <section class="services">
+      <div class="container">
+        <h2>何ができるの？</h2>
+        <p>What we can do?</p>
+        <div class="services-grid">
+          <div class="service">
+            <i class="fas fa-chart-line"></i>
+            <h3>どこからでも</h3>
+            <p>ブラウザさえ使えればどの端末からでも使用できます。</p>
+          </div>
+          <div class="service">
+            <i class="fas fa-laptop"></i>
+            <h3>期限を逃さない</h3>
+            <p>期限が近づくとLINEかメールに通知を送ります。</p>
+          </div>
+          <div class="service">
+            <i class="fas fa-mobile-alt"></i>
+            <h3>手書き入力に対応</h3>
+            <p>面倒なキーボードとはさようなら</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="about-us">
+      <div class="container">
+        <h2>運営者について</h2>
+        <p>Who developing this service.</p>
+        <div class="about-us-grid">
+          <div class="about-us-img" style="background-color:green"></div>
+          <div class="about-us-text">
+            <h3>For poople,For world.</h3>
+            <p>
+             このサービスは個人開発者であるAramaki Hinataによって開発・運用されています。
+             バグの発見や不便に思う箇所、新たに欲しい機能の要望があれば以下のフォームから送信してください。
+             またプライバシーやコンプライアンスを遵守することを約束いたします。
+                
+            </p>
+            <a href="#" class="btn">送信フォーム</a>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+        <div style="text-align:center;background-color:#f7f7f7;border-top:solid 1px black">MateNote has all right reserved.</div>
+    </footer>
+
+
+   
+
+  </body>
 </html>
